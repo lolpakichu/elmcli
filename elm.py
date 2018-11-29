@@ -3,12 +3,12 @@ import socket
 host = socket.gethostname()
 hostIP = socket.gethostbyname(host)
 
-print(hostIP, host, '\n','WELCOME TO ELM A LIGHTWEIGHT CLI')
+print(hostIP, host, '\n','WELCOME TO ELM A LIGHTWEIGHT CONSOLE')
 
 print('Type "help" (without quatation) for a list of commands')
 #help func
 def elmHelp():
-    print('exit- exits elm cli')
+    print('exit- exits elm')
     print('cls- clears the screen')
     print('ip- gets local ip')
     print('hostname- get local hostname')
