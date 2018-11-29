@@ -3,7 +3,7 @@ import socket
 host = socket.gethostname()
 hostIP = socket.gethostbyname(host)
 
-print(hostIP, host, '\n','WELCOME TO ELM A LIGHTWEIGHT CONSOLE')
+print(host,'@',hostIP, '\n','WELCOME TO ELM A LIGHTWEIGHT CONSOLE')
 
 print('Type "help" (without quatation) for a list of commands')
 #help func
@@ -14,7 +14,7 @@ def elmHelp():
     print('hostname- get local hostname')
 #clear output func
 def cls():
-    print('\n' * 10)
+    print('\n' * 8)
 #getip func
 def getIp():
     print(hostIP)
@@ -25,8 +25,8 @@ while True:
     command = input()
     #check if the command is help
     if command == 'help':
-        cls()
         elmHelp()
+        cls()
     #check if the command is exit and if it is exit elm
     if command == 'exit':
         exit()
