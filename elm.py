@@ -1,12 +1,15 @@
+# elm.py
 import socket
 import random
-
+# get hostname
 host = socket.gethostname()
+# get ip from hostname
 hostIP = socket.gethostbyname(host)
+# args for commands
 arg1 = '1'
 arg2 = '1'
+# startup text
 print(host,'@',hostIP, '\n','WELCOME TO ELM A LIGHTWEIGHT CONSOLE')
-
 print('Type "help" (without quatation) for a list of commands')
 #help func
 def elmHelp():
