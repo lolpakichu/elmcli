@@ -29,8 +29,8 @@ def getHostname():
     print(host)
 # rand func
 def Rand(minimum, maximum):
-    minimum = input('Input the minimum ')
-    maximum = input('Input the maximum ')
+    minimum = input('min ')
+    maximum = input('max ')
     print(random.randint(int(minimum), int(maximum)))
 while True:
     command = input()
