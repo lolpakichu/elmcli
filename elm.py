@@ -20,7 +20,7 @@ def elmHelp():
     print('rand- generates a random number')
 # clear output func
 def cls():
-    print('\n' * 8)
+    print('\n' * 20)
 # getip func
 def getIp():
     print(hostIP)
